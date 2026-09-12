@@ -1,6 +1,6 @@
 import { Project } from "./Project";
 
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://project-tracking-system-31b3-rghdo9oas-sivapriyan1.vercel.app";
 const url = `${baseUrl}/projects`;
 
 function translateStatusToErrorMessage(status) {
