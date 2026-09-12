@@ -2,6 +2,7 @@
 import React, { Fragment, useState, useEffect } from "react";
 import ProjectList from "./ProjectList";
 import { projectAPI } from "./projectAPI";
+import { Project } from "./Project";  
 
 function ProjectsPage() {
   const [projects, setProjects] = useState([]);
