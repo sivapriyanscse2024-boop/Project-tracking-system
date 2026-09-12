@@ -1,6 +1,5 @@
 //src\projects\ProjectDetail.js
 import React from 'react';
-import { Project } from './Project';
 
 export default function ProjectDetail({ project }) {
   return (
